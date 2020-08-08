@@ -1,0 +1,22 @@
+
+float sss;
+
+
+void setup(){
+  size(800,800);
+    background(#ffcb8e); 
+   sss = width/2;
+
+}
+
+void draw(){
+   
+   fill(random (255)) ;
+  ellipse(sss,sss,200,200);  
+  
+  // logic
+    sss = sss+random(-10,10);
+  
+  
+}
+
