@@ -1,0 +1,107 @@
+float sas=0;
+float sos=0;
+float speed=30;
+void setup(){
+  size(800,800);
+  
+println(sas);
+
+}
+
+void draw(){
+  background(#ffcb8e); 
+  
+  sas = 0;
+  while (sas<width || sos<height){
+    
+   sas = sas+speed; 
+   sos = sos+speed;     
+
+   fill(#e97171);
+   rect(sas,sos,30,30);
+   
+
+ }
+ }
+ 
+ 
+ 
+ 
+ ------------------------------
+ 
+ 
+ 
+
+
+
+float sas=0;
+float sos=0;
+float speed=30;
+void setup(){
+  size(800,800);
+  
+println(sas);
+
+}
+
+void draw(){
+  background(#ffcb8e); 
+  
+  sas = 0;
+  while (sas<width){
+    
+   sas = sas+speed; 
+    
+
+   fill(#e97171);
+   rect(sas,sos,30,30);
+   
+
+ }
+ }
+ 
+ 
+ 
+ -------------------
+ 
+ 
+ 
+ 
+ float sas=0;
+float sos=0;
+float speed=60;
+void setup(){
+  size(800,800);
+  
+println(sas);
+
+}
+
+void draw(){
+  background(#ffcb8e); 
+  
+  sas = 0;
+  sos = 0;
+  while (sas<mouseX){
+    
+   sas = sas+speed; 
+    
+
+   fill(#e97171);
+   rect(sas,sos,30,30);
+   
+
+ }
+ 
+ while (sas<mouseY){
+    
+   sos = sos+speed; 
+    
+
+   fill(#e97171);
+   rect(sos,sas,30,30);
+   
+
+ }
+ }
+ 
